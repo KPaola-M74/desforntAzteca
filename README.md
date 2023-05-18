@@ -7,11 +7,11 @@ El objetivo de este proyecto es explorar y aprender sobre la fascinante civiliza
 
 ## Integrantes
 
--Brayan Stiven Acuña Vanegas - brayan.acuna@correounivalle.edu.co 
--Juan Manuel Castillo Molina - juan.manuel.castillo@correounivalle.edu.co
--Victor Daniel Valencia Ñañez - victor.nanez@correounivalle.edu.co
--Karen Paola Moreno Palacios - moreno.karen@correounivalle.edu.co
--Lina Marcela Rivas Rebolledo - rivas.lina@correounivalle.edu.co
+-[Brayan Stiven Acuña Vanegas - brayan.acuna@correounivalle.edu.co ]
+-[Juan Manuel Castillo Molina - juan.manuel.castillo@correounivalle.edu.co]
+-[Victor Daniel Valencia Ñañez - victor.nanez@correounivalle.edu.co]
+-[Karen Paola Moreno Palacios - moreno.karen@correounivalle.edu.co]
+-[Lina Marcela Rivas Rebolledo - rivas.lina@correounivalle.edu.co]
 
 
 
