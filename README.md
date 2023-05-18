@@ -1,4 +1,4 @@
-# Proyecto Integrador: Cultura Aztecas
+# Proyecto Integrador: Cultura Azteca
 
 ¡Bienvenidos al Proyecto Integrador sobre la cultura azteca!
 
