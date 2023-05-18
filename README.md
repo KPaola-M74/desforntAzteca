@@ -6,12 +6,12 @@
 El objetivo de este proyecto es explorar y aprender sobre la fascinante civilización azteca. A través de este proyecto del curso, nos sumergiremos en la historia, arte, religión y otros aspectos de la cultura azteca. Utilizaremos diferentes herramientas y recursos para investigar, recopilar información y presentar nuestros hallazgos de manera creativa.
 
 ## Integrantes
+- [Brayan Stiven Acuña Vanegas](mailto:brayan.acuna@correounivalle.edu.co): Descripción breve del integrante 1.
+- [Juan Manuel Castillo Molina](mailto:juan.manuel.castillo@correounivalle.edu.co): Descripción breve del integrante 2.
+- [Victor Daniel Valencia Ñañez](mailto:victor.nanez@correounivalle.edu.co): Descripción breve del integrante 3.
+- [Karen Paola Moreno Palacios](mailto:moreno.karen@correounivalle.edu.co): Descripción breve del integrante 4.
+- [Lina Marcela Rivas Rebolledo](mailto:rivas.lina@correounivalle.edu.co): Descripción breve del integrante 5.
 
--[Brayan Stiven Acuña Vanegas - brayan.acuna@correounivalle.edu.co ]
--[Juan Manuel Castillo Molina - juan.manuel.castillo@correounivalle.edu.co]
--[Victor Daniel Valencia Ñañez - victor.nanez@correounivalle.edu.co]
--[Karen Paola Moreno Palacios - moreno.karen@correounivalle.edu.co]
--[Lina Marcela Rivas Rebolledo - rivas.lina@correounivalle.edu.co]
 
 
 
