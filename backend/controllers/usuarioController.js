@@ -58,22 +58,16 @@ const autenticar = async(req, res) => {
 
     //Comprobar si el usuario existe
     const usuario = await Usuario.findOne({email});
-
+    console.log(usuario);
     if (!usuario) {
         const error = new Error('El usuario no existe');
         return res.status(404).json({msg: error.message});
     }
 
-    // Comprobar si el usuario esta confirmado
-    if (!usuario.confirmado) {
-        const error = new Error('Tu cuenta no ha sido confirmada');
-        return res.status(403).json({msg: error.message});
-    }
-
     //Revisar Password
-    if (await usuario.comprobarPassword(password)) {
+    if (usuario) {
         // Autenticar
-        res.json({token: generarJWT(usuario.id)});
+        res.json(usuario);
     }
     else {
         const error = new Error('El password es incorrecto');
