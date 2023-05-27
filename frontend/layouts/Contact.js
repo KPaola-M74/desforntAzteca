@@ -3,7 +3,7 @@ import { Header2 } from "./partials/Header";
 import Image from "next/image";
 import axios from 'axios';
 import Link from 'next/link';
-import Modal from "react-modal";
+
 
 
 
@@ -72,7 +72,7 @@ const Contact = () => {
             alt="Background"
             layout="fill"
             objectFit="cover"
-            quality={100}
+            quality={90}
             className="w-full h-full object-cover"
             style={{ boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)" }}
           />
@@ -116,7 +116,7 @@ const Contact = () => {
         <div >
         <a href={linkHref}>
         <button className="py-2 px-4 bg-[#49B675] text-white rounded hover:bg-[#3F9256]" onClick={handleSubmit}>
-          Ir a la ruta
+         logearse
         </button>
       </a>
       </div>
