@@ -1,7 +1,7 @@
 # Proyecto Integrador: Cultura Azteca
 
-¡Bienv![AZTECA-removebg-preview-removebg-preview](https://github.com/Integrador-02/AztecaProyecto/assets/92823297/c278c731-fb03-4a84-b5cf-46bb13b5aede)
-enidos al Proyecto Integrador sobre la cultura azteca!
+[AZTECA-removebg-preview-removebg-preview](https://github.com/Integrador-02/AztecaProyecto/assets/92823297/c278c731-fb03-4a84-b5cf-46bb13b5aede)
+¡Bienvenidos al Proyecto Integrador sobre la cultura azteca!
 
 ## Descripción del Proyecto
 El objetivo de este proyecto es explorar y aprender sobre la fascinante civilización azteca. A través de este proyecto del curso, nos sumergiremos en la historia, arte, religión y otros aspectos de la cultura azteca. Utilizaremos diferentes herramientas y recursos para investigar, recopilar información y presentar nuestros hallazgos de manera creativa.
