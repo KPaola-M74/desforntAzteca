@@ -34,10 +34,10 @@ root.render(
             far: 200,
             position: [ 0, 7, 10 ]
         } }>
-       <Principal></Principal><App ></App>
-    </Canvas>
+       <App ></App> <Principal></Principal>
+    </Canvas><button onClick={handleSubmit}> precioname</button>
     */
     //<Religion />
     //<Arte />
- <button onClick={handleSubmit}> precioname</button>
+ <Cultura/>
 )

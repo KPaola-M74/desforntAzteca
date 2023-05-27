@@ -1,7 +1,7 @@
 import { OrbitControls, Html, Text,Float } from '@react-three/drei'
 import { Suspense, useRef , useState} from 'react'
 import { FrontSide, LinearFilter, VideoTexture, TextureLoader } from 'three'
-import WarriorModel from './templo';
+
 import { Canvas } from '@react-three/fiber';
 
 import './style.css'
