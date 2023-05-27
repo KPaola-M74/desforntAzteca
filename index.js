@@ -1,6 +1,6 @@
 import express from "express"
 import dotenv from 'dotenv';
-import cors from 'cors';
+//import cors from 'cors';
 import conectarDB from "./config/db.js";
 import usuarioRoutes from './routes/usuarioRoutes.js'
 
@@ -14,6 +14,7 @@ conectarDB();
 
 const dominiosPermitidos = ['https://front-git-main-kpaola-m74.vercel.app'];
 
+/*
 const corsOptions = {
     origin: function(origin, callback) {
         if (dominiosPermitidos.indexOf(origin) !== -1) {
@@ -28,7 +29,7 @@ const corsOptions = {
 }
 
 app.use(cors(corsOptions))
-
+*/
 app.use("/api/usuarios", usuarioRoutes);
 
 const PORT = process.env.PORT || 4000
