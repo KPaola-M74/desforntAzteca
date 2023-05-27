@@ -18,7 +18,10 @@ const corsOptions = {
     origin: function(origin, callback) {
         if (dominiosPermitidos.indexOf(origin) !== -1) {
             //El origen del request esta permitido
+<<<<<<< HEAD
             console.log('ok');
+=======
+>>>>>>> 8f76f9dd5f51a1813f9335859d71c4e559b6e61e
             callback(null, true);
         }
         else {
