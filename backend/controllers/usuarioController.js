@@ -65,7 +65,6 @@ const autenticar = async(req, res) => {
     }
 
     //Revisar Password
-<<<<<<< HEAD
     if (usuario.password === password) {
         // Autenticar
         
@@ -76,16 +75,6 @@ const autenticar = async(req, res) => {
         return res.json('no');
         //return res.status(403).json({msg: error.message});
     }
-=======
-    if (usuario) {
-        // Autenticar
-        res.json(usuario);
-    }
-    else {
-        const error = new Error('El password es incorrecto');
-        return res.status(403).json({msg: error.message});
-    }
->>>>>>> 8f76f9dd5f51a1813f9335859d71c4e559b6e61e
 };
 
 const olvidePassword = async (req, res) => {
