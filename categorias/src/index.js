@@ -33,11 +33,11 @@ root.render(
             near: 0.1,
             far: 200,
             position: [ 0, 7, 10 ]
-        } }>
+        } }><Cultura/>
        <App ></App> <Principal></Principal>
     </Canvas><button onClick={handleSubmit}> precioname</button>
     */
     //<Religion />
-    //<Arte />
- <Cultura/>
+    //
+ <Arte />
 )
