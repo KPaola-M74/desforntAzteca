@@ -1,6 +1,9 @@
 # Proyecto Integrador: Cultura Azteca
 
-[AZTECA-removebg-preview-removebg-preview](https://github.com/Integrador-02/AztecaProyecto/assets/92823297/c278c731-fb03-4a84-b5cf-46bb13b5aede)
+
+![AZTECA-removebg-preview-removebg-preview](https://github.com/Integrador-02/AztecaProyecto/assets/92823297/f5e4182f-8da6-4b6b-8318-57f0629018ad)
+
+
 ¡Bienvenidos al Proyecto Integrador sobre la cultura azteca!
 
 ## Descripción del Proyecto
