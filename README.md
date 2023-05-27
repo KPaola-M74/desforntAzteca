@@ -4,6 +4,10 @@
 ![AZTECA-removebg-preview-removebg-preview](https://github.com/Integrador-02/AztecaProyecto/assets/92823297/f5e4182f-8da6-4b6b-8318-57f0629018ad)
 
 
+
+![300px-Outpost_selection_aztecs_character](https://github.com/Integrador-02/AztecaProyecto/assets/92823297/b28154f2-8941-495a-b0bb-fc2359254081)
+
+
 ¡Bienvenidos al Proyecto Integrador sobre la cultura azteca!
 
 ## Descripción del Proyecto
