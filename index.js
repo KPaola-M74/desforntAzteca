@@ -5,10 +5,8 @@ import conectarDB from "./config/db.js";
 import usuarioRoutes from './routes/usuarioRoutes.js'
 
 const app = express(); 
-const  cors = require('./cors')
-
+app.use(cors())
 app.use(express.json());
-app.use(cors)
 
 dotenv.config();
 
@@ -16,7 +14,6 @@ conectarDB();
 
 const dominiosPermitidos = ['*'];
 
-/*
 const corsOptions = {
     origin: function(origin, callback) {
         if (dominiosPermitidos.indexOf(origin) !== -1) {
@@ -30,8 +27,8 @@ const corsOptions = {
     },
 }
 
-app.use(cors)
-*/
+
+
 app.use("/api/usuarios", usuarioRoutes);
 
 const PORT = process.env.PORT || 4000
