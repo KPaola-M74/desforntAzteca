@@ -1,63 +1,22 @@
-import { OrbitControls, Html, Text,Float } from '@react-three/drei'
-import { Suspense, useRef , useState} from 'react'
-import { FrontSide, LinearFilter, VideoTexture, TextureLoader } from 'three'
-import DAztecaModel from './DAzteca';
-import { Canvas } from '@react-three/fiber';
 
-import './style.css'
 export default function Religion()
 {
-    const texture2 = new TextureLoader().load('aztecas.jpg');
-    texture2.repeat.set(0.8, 1.6);
-    return <Canvas
-    camera={ {
-            fov: 90,
-            near: 0.1,
-            far: 200,
-            position: [ 0, 7, 10 ]
-        } }>
-          <OrbitControls maxPolarAngle = {Math.PI/2} 
-        maxDistance = {40} 
-        minDistance = {10} 
-        makeDefault = {true} 
-        
-        mouseButtons-RIGHT = {false}/>
-        <directionalLight position={ [ 1, 2, 3 ] } intensity={ 1.5 } />
-        <ambientLight intensity={ 0.5 } />
-       {/**  <mesh position-y={-1.5} position-z={1} rotation-x={-Math.PI*.2}  scale ={4}  >
-            <planeGeometry args={[4,4]} />
-            <meshBasicMaterial map={texture2} />
-        </mesh>*/}
-        <DAztecaModel/>
-        <Html
-            position={[0.09,6.9,9]}
-            wrapperClass='label'
-            center
-            distanceFactor={5}
-            fontSize ={9}
-        >
-            Dios Quetzalcoatl
-        </Html>
-       
-        <Text
-            font='./RiverStonePersonalUse-qZaE1.otf'
-            fontSize={0.3}
-            color= 'black'
-            position-y={4.5}
-            masWidth= {-1}
-            textAlign = 'center'
-            distanceFactor={4}
-            rotation-x={-Math.PI*.2}
-            >
-                Es uno de los dioses más importantes de la mitología azteca.
-  {'\n'}
-  Su nombre se deriva de las palabras náhuatl "quetzalli" que significa "pluma preciosa" y
-  {'\n'}
-  "coatl" que significa "serpiente", por lo que su nombre se traduce como "Serpiente Emplumada".
-  {'\n'}
-  Según la mitología azteca, Quetzalcoatl fue uno de los principales dioses que participó en la creación del mundo y la humanidad. 
-  
-            </Text> 
+    return (
+        <div className="sketchfab-embed-wrapper">
+            <p style={{ fontSize: '43px', fontWeight: 'normal', margin: '5px', color: '#000' }}>
+            Coyolxauhqui
+            </p>
+            <iframe style={{width: '40%', height: '400px'}} title="COL: Coyolxauhqui" frameBorder="0" allowFullScreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/73dff65bf4654de08d8db64298adc6ae/embed"></iframe>
+            <p style={{ fontSize: '13px', fontWeight: 'normal', margin: '5px', color: '#4A4A4A' }}>
+                <a href="https://sketchfab.com/3d-models/col-coyolxauhqui-73dff65bf4654de08d8db64298adc6ae?utm_medium=embed&utm_campaign=share-popup&utm_content=73dff65bf4654de08d8db64298adc6ae" target="_blank" rel="nofollow" style={{ fontWeight: 'bold', color: '#1CAAD9' }}>COL: Coyolxauhqui</a> by <a href="https://sketchfab.com/idiom-project?utm_medium=embed&utm_campaign=share-popup&utm_content=73dff65bf4654de08d8db64298adc6ae" target="_blank" rel="nofollow" style={{ fontWeight: 'bold', color: '#1CAAD9' }}>Text Database and Dictionary of Classic Mayan</a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=73dff65bf4654de08d8db64298adc6ae" target="_blank" rel="nofollow" style={{ fontWeight: 'bold', color: '#1CAAD9' }}>Sketchfab</a>
+            </p>
+            <p style={{ fontSize: '23px', fontWeight: 'normal', margin: '20px', color: '#000' }}>
+            Coyolxauhqui (pron. Koy-ol-shauw-kee) fue la diosa azteca de la luna o la vía láctea quien fue masacrada <br />
+            por su hermano Huitzilopochtli, el dios de la guerra, en la mitología azteca. Esta historia fue conmemorada <br />
+            en una célebre piedra de gran relieve encontrada al pie de la pirámide de los sacrificios, el Templo Mayor de<br />
+            la capital azteca, Tenochtitlan.<br />
+            </p>
+        </div>
 
-    </Canvas>
+    )
 }
