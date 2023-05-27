@@ -7,6 +7,8 @@ import Principal from "./Principal";
 import Religion from "./Religion";
 import Arte from "./Arte";
 import Cultura from "./Cultura";
+import Arquitectura from "./Arquitectura";
+import Economia from "./Economia";
 const root = createRoot(document.querySelector('#root'));
 const handleSubmit = async (e) => {
     e.preventDefault();
@@ -26,18 +28,5 @@ const handleSubmit = async (e) => {
     }
 };
 root.render(
-    /** 
-    <Canvas 
-     camera={ {
-            fov: 90,
-            near: 0.1,
-            far: 200,
-            position: [ 0, 7, 10 ]
-        } }>
-       <App ></App> <Principal></Principal>
-    </Canvas><button onClick={handleSubmit}> precioname</button>
-    */
-    //<Religion />
-    //<Arte />
- <Cultura/>
+    <Economia/>
 )
